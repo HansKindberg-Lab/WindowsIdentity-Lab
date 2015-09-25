@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D4B8EB4E-1C98-48E6-BC93-36368642A9F1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{9E547D5C-2C42-4D77-8163-D754BD65CD7D}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\Solution.ruleset = CodeAnalysis\Solution.ruleset
+		CodeAnalysis\Solution.Tests.ruleset = CodeAnalysis\Solution.Tests.ruleset
+		CodeAnalysis\SolutionDictionary.xml = CodeAnalysis\SolutionDictionary.xml
+		CodeAnalysis\SolutionSuppressions.cs = CodeAnalysis\SolutionSuppressions.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{0F1E6A5A-6DD7-4FDE-8BC0-87C0E134C059}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\Solution-AssemblyInfo.cs = Properties\Solution-AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signing", "Signing", "{8B0BBCEF-EC9E-46BB-83F1-0C7F69DA21F3}"
+	ProjectSection(SolutionItems) = preProject
+		Signing\ReadMe.txt = Signing\ReadMe.txt
+		Signing\StrongName.Development.snk = Signing\StrongName.Development.snk
+		Signing\StrongName.snk = Signing\StrongName.snk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{288D0B55-C25B-4505-8A7F-CF43B3CAAC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{95B18B10-B7FB-4F40-856B-1D35D5F02231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShimTests", "ShimTests\ShimTests.csproj", "{7685F064-92C3-4C96-B518-C7568A14CAF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6765D50E-3BD5-42C5-A439-32962238E6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288D0B55-C25B-4505-8A7F-CF43B3CAAC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288D0B55-C25B-4505-8A7F-CF43B3CAAC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288D0B55-C25B-4505-8A7F-CF43B3CAAC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288D0B55-C25B-4505-8A7F-CF43B3CAAC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B18B10-B7FB-4F40-856B-1D35D5F02231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B18B10-B7FB-4F40-856B-1D35D5F02231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B18B10-B7FB-4F40-856B-1D35D5F02231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B18B10-B7FB-4F40-856B-1D35D5F02231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7685F064-92C3-4C96-B518-C7568A14CAF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7685F064-92C3-4C96-B518-C7568A14CAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7685F064-92C3-4C96-B518-C7568A14CAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7685F064-92C3-4C96-B518-C7568A14CAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6765D50E-3BD5-42C5-A439-32962238E6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6765D50E-3BD5-42C5-A439-32962238E6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6765D50E-3BD5-42C5-A439-32962238E6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6765D50E-3BD5-42C5-A439-32962238E6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
