@@ -74,6 +74,8 @@
     </When>
   </Choose>
   <ItemGroup>
+    <Compile Include="Helpers\Extensions\ObjectExtension.cs" />
+    <Compile Include="LabTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="$(SolutionDir)Properties\Solution-AssemblyInfo.cs">
       <Link>Properties\Solution-AssemblyInfo.cs</Link>
